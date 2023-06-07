@@ -74,3 +74,5 @@ gem "redis", "~> 5.0"
 gem "devise", "~> 4.9"
 
 gem "mailjet", "~> 1.7"
+
+gem "high_voltage", "~> 3.1"
