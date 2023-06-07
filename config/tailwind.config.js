@@ -8,10 +8,20 @@ module.exports = {
     './node_modules/flowbite/**/*.js'
   ],
   theme: {
-    extend: {
+    extend: 
+    {
       fontFamily: {
-        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
-      },
+        'barlow': [
+          'Barlow Condensed', 
+          'sans-serif'
+          // other fallback fonts
+        ],
+        'teko': [
+          'Teko', 
+          'sans-serif'
+          // other fallback fonts
+        ]
+      }
     },
   },
   plugins: [

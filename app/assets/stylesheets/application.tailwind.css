@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
 
 /*
 
