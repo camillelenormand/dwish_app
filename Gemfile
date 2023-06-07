@@ -76,3 +76,5 @@ gem "devise", "~> 4.9"
 gem "mailjet", "~> 1.7"
 
 gem "high_voltage", "~> 3.1"
+
+gem "tailwindcss-rails", "~> 2.0"
