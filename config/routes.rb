@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'welcome/index'
   resources :order_items
   resources :orders
   resources :categories
@@ -13,5 +14,5 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
-  root to: "home#index"
+  root :to => 'high_voltage/pages#show', :id => 'home'
 end
