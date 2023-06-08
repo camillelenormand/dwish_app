@@ -78,3 +78,5 @@ gem "mailjet", "~> 1.7"
 gem "high_voltage", "~> 3.1"
 
 gem "tailwindcss-rails", "~> 2.0"
+
+gem "dockerfile-rails", ">= 1.4", :group => :development
